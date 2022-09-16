@@ -17,7 +17,8 @@ const msalConfig = {
 // Add here the scopes to request when obtaining an access token for MS Graph API
 // for more, visit https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-core/docs/scopes.md
 const loginRequest = {
-  scopes: ["api://0759d682-1003-4fb3-8ba4-92d2b16b5a4b/Files.read"]
+  // scope trong mục Expose an API
+  scopes: ["api://0759d682-1003-4fb3-8ba4-92d2b16b5a4b/resource.operation.constraint"]
 };
 
 // Add here scopes for access token to be used at MS Graph API endpoints.
